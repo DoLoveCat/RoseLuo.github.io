@@ -1,0 +1,31 @@
+body {
+    background-color: #fdfdfd;
+    color: #333333;
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
+
+h2 {
+    font-family: Georgia, serif;
+    font-size: 24px;
+}
+
+p {
+    font-size: 16px;
+}
+
+a {
+    color: #0077b5;
+}
+
+.top-heading {
+    color: rgb(13, 133, 2);
+}
+
+.small-image {
+    max-width: 50px;
+}
+
+.my-photo {
+    max-width: 150px;
+}

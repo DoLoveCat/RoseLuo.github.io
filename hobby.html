@@ -3,28 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <title>My Hobbies</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <hr>
-    <h1>HOBBY 1 - CAT!!!</h1>
-    <p>I LOVE MY CAT!!!</p>
-
-    <video width="400" controls>
-    <source src="cat.mp4" type="video/mp4">
-    </video>
-
+    <h1>My Hobbies & Interests</h1>
     <hr>
 
-    <h1>HOBBY 2 - DC COMIC</h1>
-    <p>I LOVE DC COMIC!!!</p>
+    <div class="flex-container">
+        <div class="hobby-card">
+            <h2>HOBBY 1 - CAT!!!</h2>
+            <p>I LOVE MY CAT!</p>
+            <video width="350" controls class="animate-pop">
+                <source src="cat.mp4" type="video/mp4">
+            </video>
+        </div>
 
-    <img src="HOBBY2.jpg" alt="mtHobby" width="400">
-
-
-
+        <div class="hobby-card">
+            <h2>HOBBY 2 - DC COMICS</h2>
+            <p>I LOVE DC COMICS!</p>
+            <img src="HOBBY2.jpg" alt="DC Comic Hobby" width="350" class="animate-pop">
+        </div>
+    </div>
 
     <hr>
-    
     <a href="index.html">Back to my Resume</a>
 </body>
 </html>
